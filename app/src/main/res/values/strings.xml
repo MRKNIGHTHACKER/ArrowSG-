@@ -1,0 +1,72 @@
+<resources>
+    <!-- App & Navigation -->
+    <string name="app_name">ArrowSG</string>
+    <string name="arrow_desc">Game Board Arrow</string>
+    
+    <!-- Splash Screen -->
+    <string name="splash_title">Arrow Puzzle</string>
+    <string name="splash_subtitle">Ready. Slide. Clear!</string>
+    <string name="splash_loading">Loading Level Pack…</string>
+    
+    <!-- Main Menu -->
+    <string name="menu_play">Play Campaign</string>
+    <string name="menu_levels">Level Select</string>
+    <string name="menu_daily">Daily Challenge</string>
+    <string name="menu_stats">Statistics</string>
+    <string name="menu_settings">Settings</string>
+    
+    <!-- Level Select -->
+    <string name="level_select_title">Select Level</string>
+    <string name="level_locked">Locked</string>
+    <string name="difficulty_easy">Easy</string>
+    <string name="difficulty_medium">Medium</string>
+    <string name="difficulty_hard">Hard</string>
+    <string name="difficulty_daily">Daily</string>
+    
+    <!-- Gameplay -->
+    <string name="gameplay_level">Level %d</string>
+    <string name="gameplay_daily">Daily Challenge</string>
+    <string name="gameplay_hearts_label">Hearts:</string>
+    <string name="gameplay_moves_label">Moves:</string>
+    <string name="gameplay_timer_label">Time: %1$02d:%2$02d</string>
+    <string name="gameplay_hints">Hint</string>
+    <string name="gameplay_pause">Pause</string>
+    <string name="gameplay_paused">Game Paused</string>
+    <string name="gameplay_resume">Resume</string>
+    
+    <!-- Settings -->
+    <string name="settings_title">Settings</string>
+    <string name="settings_dark_mode">Dark Theme</string>
+    <string name="settings_sound_fx">Sound Effects</string>
+    <string name="settings_music">Background Music</string>
+    <string name="settings_reset">Reset All Progress</string>
+    <string name="settings_reset_confirm">Are you sure you want to delete all saved progress and level completions? This cannot be undone.</string>
+    <string name="settings_reset_confirm_title">Reset Progress?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="cancel">Cancel</string>
+    
+    <!-- Statistics -->
+    <string name="stats_title">Player Statistics</string>
+    <string name="stats_games_played">Games Started: %d</string>
+    <string name="stats_levels_completed">Levels Solved: %d</string>
+    <string name="stats_stars_earned">Total Stars Earned: %d</string>
+    <string name="stats_score">Total Score: %d</string>
+    <string name="stats_hearts_lost">Hearts Lost: %d</string>
+    <string name="stats_time_spent">Total Time Spent: %1$02d:%2$02d</string>
+    <string name="stats_no_data">No games played yet. Solve some levels to view statistics!</string>
+    
+    <!-- Dialogs -->
+    <string name="victory_title">Level Cleared!</string>
+    <string name="victory_subtitle">Perfect Slide-Out!</string>
+    <string name="victory_score">Score: %d</string>
+    <string name="victory_time">Time: %d seconds</string>
+    <string name="victory_hearts">Hearts Left: %d</string>
+    <string name="next_level">Next Level</string>
+    <string name="home">Home</string>
+    <string name="restart">Restart</string>
+    
+    <string name="gameover_title">Game Over</string>
+    <string name="gameover_subtitle">Out of Hearts!</string>
+    <string name="gameover_restart">Try Again</string>
+</resources>

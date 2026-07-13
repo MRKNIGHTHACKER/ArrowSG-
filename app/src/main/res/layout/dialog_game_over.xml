@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="320dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    app:cardCornerRadius="28dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="?attr/colorSurfaceContainer"
+    app:strokeWidth="2dp"
+    app:strokeColor="?attr/colorError">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gameover_title"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="?attr/colorError" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="@string/gameover_subtitle"
+            android:textSize="14sp"
+            android:textColor="?attr/colorSecondary" />
+
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="24dp"
+            android:src="@drawable/ic_heart_outline"
+            app:tint="?attr/colorError"
+            android:contentDescription="Out of Hearts" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_gameover_restart"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginBottom="12dp"
+            android:text="@string/gameover_restart"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/ic_restart" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_gameover_home"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/home"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            style="@style/Widget.Material3.Button.TonalButton"
+            app:cornerRadius="16dp"
+            app:icon="@drawable/ic_arrow_left" />
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
